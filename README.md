@@ -43,7 +43,7 @@ Inspired by publicly available datasets from the ICFHR 2018 competition, we buil
 
 > **Status:** Under review at *Pattern Recognition Letters*
 
-This paper extends our work from KH-SADA to **multi-script analysis**, including **Khmer, Balinese, and Sundanese**. It introduces a grammar-aware augmentation framework for multi-script palm leaf manuscripts and a hybrid CNN-Transformer recognition architecture.
+This paper extends our work from KH-SADA to **multi-script analysis**, including **Khmer, Balinese, and Sundanese**. It introduces a grammar-aware augmentation framework for multi-script palm leaf manuscripts and an improved recognition architecture.
 
 - **New grammar forms**
 - **Expanded datasets**
