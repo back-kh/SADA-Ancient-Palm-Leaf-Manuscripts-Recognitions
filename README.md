@@ -67,6 +67,7 @@ We welcome feedback, collaboration, and contributions to further enhance the too
 ## Reference
 
 If you use this work, please cite the following publication:
+@INPROCEEDINGS{9980217, author = {Thuon, Nimol and Du, Jun and Zhang, Jianshu}, title = {Syllable Analysis Data Augmentation for Khmer Ancient Palm Leaf Recognition}, booktitle = {2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)}, year = {2022}, pages = {1855--1862}, doi = {10.23919/APSIPAASC55919.2022.9980217}, keywords = {Training; Dictionaries; Image recognition; Text recognition; System performance; Information processing; Feature extraction} }
 
 
 
