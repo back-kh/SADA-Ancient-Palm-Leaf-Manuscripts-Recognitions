@@ -11,17 +11,17 @@ This repository supports two research projects focused on syllable-based data au
 
 ---
 
-## 📘 Paper 1: KH-SADA – Khmer Syllable Analysis Data Augmentation
+##  Paper 1: KH-SADA – Khmer Syllable Analysis Data Augmentation
 
-### 🔍 Introduction
+###  Introduction
 
 This project introduces a glyph dictionary and grammar-aware augmentation strategy designed to enhance Khmer palm leaf manuscript recognition. By modeling the language's grammatical structure, we support more robust OCR performance in low-resource settings.
 
-### 🧠 Background
+###  Background
 
 Inspired by publicly available datasets from the ICFHR 2018 competition, we built this dictionary to capture essential grammar forms of Khmer syllables. This linguistic grounding is critical for generating valid word formations and improving recognition accuracy.
 
-### 📂 Repository Contents
+###  Repository Contents
 
 - **Khmer Grammar Structures** – Core grammar forms (CV, CVC, etc.) used in valid word formations.
 - **Glyph Classes & Types** – Categorized glyphs (e.g., base consonants, subscript, vowels) to facilitate structured augmentation.
@@ -29,7 +29,7 @@ Inspired by publicly available datasets from the ICFHR 2018 competition, we buil
 - **Latin Transliterated Dictionary** – Mapping of Khmer glyphs to Latin script for cross-linguistic comparison.
 - **Baseline Recognition System (DenseNet + GRU)** – Implementation and results of our ICFHR 2018-winning model using DenseNet and GRU.
 
-### 📥 Downloads
+###  Downloads
 
 - **Pre-trained Model Weights**  
   [Download Weights](https://drive.google.com/file/d/15km1riGn19twubZQoGFhvfsXFphGJP1R/view?usp=sharing)
@@ -39,7 +39,7 @@ Inspired by publicly available datasets from the ICFHR 2018 competition, we buil
 
 ---
 
-## 🌍 Paper 2: PALM-SADA – Multi-Low Resource Languages Syllable Analysis Data Augmentation
+##  Paper 2: PALM-SADA – Multi-Low Resource Languages Syllable Analysis Data Augmentation
 
 > **Status:** Under review at *Pattern Recognition Letters*
 
@@ -58,14 +58,15 @@ This paper extends our work from KH-SADA to **multi-script analysis**, including
 
 ## Conclusion
 
-This glyph dictionary is an essential tool for researchers and developers focusing on  text recognition. By integrating grammatical structures and providing a rich dataset, we aim to advance the study and processing of Khmer palm leaf manuscripts.
+This glyph dictionary serves as a foundational resource for researchers and developers working on text recognition in low-resource scripts. By integrating grammatical structures and providing a rich, linguistically-informed dataset, we aim to support the advancement of Khmer palm leaf manuscript recognition.
 
-We welcome collaboration and feedback to enhance the resources available for  recognition and classification. Thank you for your interest!
+We welcome feedback, collaboration, and contributions to further enhance the tools and resources available for historical text recognition and classification. Thank you for your interest and support!
 
-## References
+---
 
-Below are the references cited in this repository:
+## Reference
 
-@INPROCEEDINGS{9980217, author={Thuon, Nimol and Du, Jun and Zhang, Jianshu}, booktitle={2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)}, title={Syllable Analysis Data Augmentation for Khmer Ancient Palm Leaf Recognition}, year={2022}, volume={}, number={}, pages={1855-1862}, keywords={Training; Dictionaries; Image recognition; Text recognition; System performance; Information processing; Feature extraction}, doi={10.23919/APSIPAASC55919.2022.9980217} }
+If you use this work, please cite the following publication:
+
 
 
