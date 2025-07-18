@@ -45,15 +45,35 @@ Inspired by publicly available datasets from the ICFHR 2018 competition, we buil
 
 This paper extends our work from KH-SADA to **multi-script analysis**, including **Khmer, Balinese, and Sundanese**. It introduces a grammar-aware augmentation framework for multi-script palm leaf manuscripts and an improved recognition architecture.
 
-- **New grammar forms**
-- **Expanded datasets**
-- **Combines linguistic rules with deep visual models**
-- **Includes an interactive grammar-based post-processing mechanism.**: 
+PALM-SADA presents a unified grammar-aware data augmentation and error analysis framework for palm leaf manuscript recognition, targeting low-resource Southeast Asian scripts. This project builds on our previous KH-SADA work for Khmer, now extending to multi-script analysis with Khmer, Balinese, and Sundanese.
 
-📦 **Documentation and dataset for PALM-SADA will be released upon publication.**
+
+**PALM-SADA** introduces a grammar-aware data augmentation and error analysis framework for palm leaf manuscript recognition, focusing on **low-resource Southeast Asian scripts**. This work extends our previous KH-SADA project for Khmer to **multi-script analysis**, covering **Khmer, Balinese, and Sundanese**.
+
+PALM-SADA fuses linguistic rules with deep learning architectures to improve recognition accuracy and provide in-depth error analysis for underrepresented scripts.
 
 ---
 
+## Features
+
+- 🆕 **Grammar-aware augmentation:**  
+  Generates synthetic manuscript data using syllable structure and linguistic rules.
+
+- 🌏 **Multi-script support:**  
+  Designed for Khmer, Balinese, and Sundanese palm leaf manuscripts.
+
+- 🤖 **Deep visual models:**  
+  Syllable-level augmentation combined with transformer-based and CNN architectures.
+
+- 🛠️ **Interactive grammar-based post-processing:**  
+  Refines recognition results by correcting grammar and syllable errors.
+
+- 📊 **Error analysis module:**  
+  Identifies common errors and suggests improvements.
+
+---
+
+Coming soon..
 
 
 ## Conclusion
