@@ -67,7 +67,7 @@ Our augmentation module simulates realistic glyph combinations using grammar con
 We use attention-based visualization to inspect how the model interprets each glyph, helping identify strengths and failure points in OCR output.
 
 <p align="center">
-  <img src="fig/4.png" alt="Recognition Visualization" width="400"/>
+  <img src="fig/4.PNG" alt="Recognition Visualization" width="400"/>
 </p>
 <p align="center"><em>Figure 5: Attention-based recognition result visualizations on Khmer palm leaf manuscript text.</em></p>
 
