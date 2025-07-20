@@ -101,24 +101,24 @@ PALM-SADA presents a unified grammar-aware data augmentation and error analysis 
 
 PALM-SADA fuses linguistic rules with deep learning architectures to improve recognition accuracy and provide in-depth error analysis for underrepresented scripts.
 
----
+### 🌐 Key Contributions
 
-## Features
+- 📖 **Unified Grammar-Aware Augmentation**: A modular augmentation pipeline tailored for syllable structures across Khmer, Balinese, and Sundanese scripts.
+- 🔡 **Syllable-Level Glyph Generation**: Incorporates script-specific grammar constraints into synthetic data generation for robust model training.
+- 🧠 **Improved Recognition Architecture**: Integrates transformer-based models and attention modules adapted to multi-script features.
+- 🔍 **Error Analysis Framework**: Highlights recognition weaknesses by script and structure, enabling fine-grained evaluation of model behavior.
 
-- 🆕 **Grammar-aware augmentation:**  
-  Generates synthetic manuscript data using syllable structure and linguistic rules.
+### 📸 Visual Highlights
 
-- 🌏 **Multi-script support:**  
-  Designed for Khmer, Balinese, and Sundanese palm leaf manuscripts.
+<p align="center">
+  <img src="fig/7.jpg" alt="Monosyllabic and Polysyllabic Word Examples" width="450"/>
+</p>
+<p align="center"><em>Figure 1: Example of monosyllabic and polysyllabic  word compositions in Southeast Asian scripts.</em></p>
 
-- 🤖 **Deep visual models:**  
-  Syllable-level augmentation combined with transformer-based and CNN architectures.
-
-- 🛠️ **Interactive grammar-based post-processing:**  
-  Refines recognition results by correcting grammar and syllable errors.
-
-- 📊 **Error analysis module:**  
-  Identifies common errors and suggests improvements.
+<p align="center">
+  <img src="fig/8.jpg" alt="Straight vs Grammar-Aware Combination" width="450"/>
+</p>
+<p align="center"><em>Figure 2: Comparison between naive glyph combination (top) and grammar-aware composition with writing-awareness (bottom).</em></p>
 
 ---
 
@@ -132,13 +132,26 @@ This glyph dictionary serves as a foundational resource for researchers and deve
 We welcome feedback, collaboration, and contributions to further enhance the tools and resources available for historical text recognition and classification. Thank you for your interest and support!
 
 ---
+## 📖 Reference
 
-## Reference
-
-If you use this work, please cite the following publication:
-
-
-@INPROCEEDINGS{9980217, author = {Thuon, Nimol and Du, Jun and Zhang, Jianshu}, title = {Syllable Analysis Data Augmentation for Khmer Ancient Palm Leaf Recognition}, booktitle = {2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)}, year = {2022}, pages = {1855--1862}, doi = {10.23919/APSIPAASC55919.2022.9980217}, keywords = {Training; Dictionaries; Image recognition; Text recognition; System performance; Information processing; Feature extraction} }
+If you use this work, please cite the following publications:
+```bibtex
+@INPROCEEDINGS{9980217,
+  author    = {Thuon, Nimol and Du, Jun and Zhang, Jianshu},
+  title     = {Syllable Analysis Data Augmentation for Khmer Ancient Palm Leaf Recognition},
+  booktitle = {2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)},
+  year      = {2022},
+  pages     = {1855--1862},
+  doi       = {10.23919/APSIPAASC55919.2022.9980217},
+  keywords  = {Training; Dictionaries; Image recognition; Text recognition; System performance; Information processing; Feature extraction}
+}
+@article{thuon2025multi,
+  title     = {Multi-low resource languages in palm leaf manuscript recognition: Syllable-based augmentation and error analysis},
+  author    = {Thuon, Nimol and Du, Jun and Theang, Panhapin and Thuon, Ranysakol},
+  journal   = {Pattern Recognition Letters},
+  year      = {2025},
+  publisher = {Elsevier}
+}
 
 
 
