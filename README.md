@@ -62,14 +62,19 @@ Our augmentation module simulates realistic glyph combinations using grammar con
 </p>
 <p align="center"><em>Figure 4: Example of syllable-based data augmentation using grammar-aware synthesis.</em></p>
 
-### 🔍 Recognition Results
+### 🔍 Recognition
 
-We use attention-based visualization to inspect how the model interprets each glyph, helping identify strengths and failure points in OCR output.
+Our recognition module utilizes an attention-based architecture to interpret complex Khmer syllables from palm leaf manuscripts. The system highlights which regions of the glyph sequence are most influential during the prediction process, offering insights into both accurate results and common failure cases.
+
+<p align="center">
+  <img src="fig/6.PNG" alt="Recognition Visualization" width="400"/>
+</p>
+<p align="center"><em>Figure 5: Visualization of the full KH-SADA pipeline with attention-based recognition and syllable-level interpretation.</em></p>
 
 <p align="center">
   <img src="fig/4.PNG" alt="Recognition Visualization" width="400"/>
 </p>
-<p align="center"><em>Figure 5: Attention-based recognition result visualizations on Khmer palm leaf manuscript text.</em></p>
+<p align="center"><em>Figure 6: Attention-based recognition result visualizations on Khmer palm leaf manuscript text.</em></p>
 
 ### 📥 Downloads
 
