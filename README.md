@@ -1,12 +1,13 @@
 # Syllable Analysis Data Augmentation (SADA)
 
-This repository supports two research projects focused on syllable-based data augmentation for ancient Southeast Asian scripts. These efforts aim to improve recognition systems for palm leaf manuscripts by integrating linguistic grammar into visual recognition models.
+This repository supports two research projects focused on syllable-based data augmentation for ancient Southeast Asian scripts (One of these approaches won First Place in Text Recognition Tasks at ICFHR 2018 for Palm Leaf Manuscript Analysis). These efforts aim to enhance recognition systems for palm leaf manuscripts by integrating linguistic grammar into visual recognition models.
+
 
 ---
 
 ## 📄 Papers
 
-- **Paper 1:** *Khmer Syllable Analysis Data Augmentation (KH-SADA)*  
+- **Paper 1:** *Khmer Syllable Analysis Data Augmentation (KH-SADA)* 
 - **Paper 2:** *Multi-Low Resource Languages Syllable Analysis Data Augmentation (PALM-SADA)* (Under Review – *Pattern Recognition Letters*)
 
 ---
