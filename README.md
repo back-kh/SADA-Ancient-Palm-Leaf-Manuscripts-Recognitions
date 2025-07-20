@@ -145,6 +145,7 @@ If you use this work, please cite the following publications:
   doi       = {10.23919/APSIPAASC55919.2022.9980217},
   keywords  = {Training; Dictionaries; Image recognition; Text recognition; System performance; Information processing; Feature extraction}
 }
+```bibtex
 @article{thuon2025multi,
   title     = {Multi-low resource languages in palm leaf manuscript recognition: Syllable-based augmentation and error analysis},
   author    = {Thuon, Nimol and Du, Jun and Theang, Panhapin and Thuon, Ranysakol},
