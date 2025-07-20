@@ -122,7 +122,7 @@ PALM-SADA fuses linguistic rules with deep learning architectures to improve rec
 
 ---
 
-Coming soon..
+### Next update: Coming soon..
 
 
 ## Conclusion
