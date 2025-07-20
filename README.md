@@ -11,25 +11,67 @@ This repository supports two research projects focused on syllable-based data au
 
 ---
 
-##  Paper 1: KH-SADA – Khmer Syllable Analysis Data Augmentation
+## Paper 1: KH-SADA – Khmer Syllable Analysis Data Augmentation
 
-###  Introduction
+### 🧠 Introduction
 
 This project introduces a glyph dictionary and grammar-aware augmentation strategy designed to enhance Khmer palm leaf manuscript recognition. By modeling the language's grammatical structure, we support more robust OCR performance in low-resource settings.
 
-###  Background
+<p align="center">
+  <img src="fig/1.png" alt="Complex Khmer Word" width="400"/>
+</p>
+<p align="center"><em>Figure 1: Complexity of a Khmer word with stacked consonants and multiple diacritics.</em></p>
+
+### 🗂️ Background
 
 Inspired by publicly available datasets from the ICFHR 2018 competition, we built this dictionary to capture essential grammar forms of Khmer syllables. This linguistic grounding is critical for generating valid word formations and improving recognition accuracy.
 
-###  Repository Contents
+<p align="center">
+  <img src="fig/2.png" alt="Complex Khmer Grammar" width="400"/>
+</p>
+<p align="center"><em>Figure 2: Complexity of Khmer grammar structure with syllabic combinations and contextual glyph roles.</em></p>
 
-- **Khmer Grammar Structures** – Core grammar forms (CV, CVC, etc.) used in valid word formations.
-- **Glyph Classes & Types** – Categorized glyphs (e.g., base consonants, subscript, vowels) to facilitate structured augmentation.
-- **Ground Truth Training Data** – Labeled glyph image dataset used for training and evaluation.
-- **Latin Transliterated Dictionary** – Mapping of Khmer glyphs to Latin script for cross-linguistic comparison.
-- **Baseline Recognition System (DenseNet + GRU)** – Implementation and results of our ICFHR 2018-winning model using DenseNet and GRU.
+### 📦 Repository Contents
 
-###  Downloads
+- **Khmer Grammar Structures**  
+  Core grammar forms (CV, CVC, etc.) used in valid word formations.
+
+- **Glyph Classes & Types**  
+  Categorized glyphs (e.g., base consonants, subscripts, vowels) to facilitate structured augmentation.
+
+<p align="center">
+  <img src="fig/3.png" alt="Writing Form Components" width="400"/>
+</p>
+<p align="center"><em>Figure 3: Component breakdown of Khmer writing forms, including consonants and dependent vowels.</em></p>
+
+- **Ground Truth Training Data**  
+  Labeled glyph image dataset used for training and evaluation.
+
+- **Latin Transliterated Dictionary**  
+  Mapping of Khmer glyphs to Latin script for cross-linguistic comparison.
+
+- **Baseline Recognition System (DenseNet + GRU)**  
+  Implementation and results of our ICFHR 2018-winning model using DenseNet and GRU.
+
+### 🔁 Syllable-Based Augmentation
+
+Our augmentation module simulates realistic glyph combinations using grammar constraints. It improves model generalization by introducing diverse and syntactically valid examples.
+
+<p align="center">
+  <img src="fig/5.png" alt="Syllable Augmentation" width="400"/>
+</p>
+<p align="center"><em>Figure 4: Example of syllable-based data augmentation using grammar-aware synthesis.</em></p>
+
+### 🔍 Recognition Results
+
+We use attention-based visualization to inspect how the model interprets each glyph, helping identify strengths and failure points in OCR output.
+
+<p align="center">
+  <img src="fig/4.png" alt="Recognition Visualization" width="400"/>
+</p>
+<p align="center"><em>Figure 5: Attention-based recognition result visualizations on Khmer palm leaf manuscript text.</em></p>
+
+### 📥 Downloads
 
 - **Pre-trained Model Weights**  
   [Download Weights](https://drive.google.com/file/d/15km1riGn19twubZQoGFhvfsXFphGJP1R/view?usp=sharing)
@@ -38,6 +80,8 @@ Inspired by publicly available datasets from the ICFHR 2018 competition, we buil
   [Download Dataset](https://drive.google.com/drive/folders/16-mLPE8QSGB4-tKpUS2q7_V2L-VgjVhi?usp=sharing)
 
 ---
+
+
 
 ##  Paper 2: PALM-SADA – Multi-Low Resource Languages Syllable Analysis Data Augmentation
 
