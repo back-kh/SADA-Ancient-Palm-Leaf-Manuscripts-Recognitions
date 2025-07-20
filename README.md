@@ -18,7 +18,7 @@ This repository supports two research projects focused on syllable-based data au
 This project introduces a glyph dictionary and grammar-aware augmentation strategy designed to enhance Khmer palm leaf manuscript recognition. By modeling the language's grammatical structure, we support more robust OCR performance in low-resource settings.
 
 <p align="center">
-  <img src="fig/1.png" alt="Complex Khmer Word" width="400"/>
+  <img src="fig/1.PNG" alt="Complex Khmer Word" width="400"/>
 </p>
 <p align="center"><em>Figure 1: Complexity of a Khmer word with stacked consonants and multiple diacritics.</em></p>
 
@@ -27,7 +27,7 @@ This project introduces a glyph dictionary and grammar-aware augmentation strate
 Inspired by publicly available datasets from the ICFHR 2018 competition, we built this dictionary to capture essential grammar forms of Khmer syllables. This linguistic grounding is critical for generating valid word formations and improving recognition accuracy.
 
 <p align="center">
-  <img src="fig/2.png" alt="Complex Khmer Grammar" width="400"/>
+  <img src="fig/2.PNG" alt="Complex Khmer Grammar" width="400"/>
 </p>
 <p align="center"><em>Figure 2: Complexity of Khmer grammar structure with syllabic combinations and contextual glyph roles.</em></p>
 
