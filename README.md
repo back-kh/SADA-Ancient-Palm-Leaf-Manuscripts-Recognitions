@@ -147,7 +147,8 @@ If you use this work, please cite the following publications:
   year      = {2022},
   pages     = {1855--1862},
   doi       = {10.23919/APSIPAASC55919.2022.9980217},
-  keywords  = {Training; Dictionaries; Image recognition; Text recognition; System performance; Information processing; Feature extraction}
+  keywords  = {Training; Dictionaries; Image recognition; Text recognition; System performance; Information processing; Feature extraction},
+  publisher = {IEEE}
 }
 
 @article{thuon2025multi,
