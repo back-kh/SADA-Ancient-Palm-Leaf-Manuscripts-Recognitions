@@ -11,7 +11,7 @@
 ## 📄 Papers
 
 - **Paper 1:** *Khmer Syllable Analysis Data Augmentation (KH-SADA)* 
-- **Paper 2:** *Multi-Low Resource Languages Syllable Analysis Data Augmentation (PALM-SADA)* (Under Review – *Pattern Recognition Letters*)
+- **Paper 2:** *Multi-Low Resource Languages Syllable Analysis Data Augmentation (PALM-SADA)
 
 ---
 
