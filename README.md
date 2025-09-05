@@ -128,6 +128,10 @@ PALM-SADA fuses linguistic rules with deep learning architectures to improve rec
 
 ### Next update: Coming soon..
 
+## 🙏 Acknowledgements
+
+**Funding Support:** This is part of the **PALM-SEA project** is supported by **The World Academy of Sciences (Italy), the Chinese Academy of Sciences (China), One-to-Many Research (Cambodia), and the National Natural Science Foundation of China (China)**.
+
 
 ## Conclusion
 
