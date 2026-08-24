@@ -317,10 +317,6 @@ This work forms part of the broader **PALM-SEA** research effort. Support has be
 
 The authors also acknowledge the creators and organizers of the [ICFHR 2018 Competition on Document Image Analysis Tasks for Southeast Asian Palm Leaf Manuscripts](https://doi.org/10.1109/ICFHR-2018.2018.00090).
 
-## Collaboration
-
-Researchers and developers working on historical document analysis, palm-leaf manuscript preservation, Khmer NLP, low-resource OCR, data augmentation, or Southeast Asian scripts are welcome to contribute through [issues](https://github.com/back-kh/SADA-Ancient-Palm-Leaf-Manuscripts-Recognitions/issues) and pull requests.
-
 ## Project lead
 
 **Dr. Nimol Thuon**  
