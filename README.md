@@ -25,7 +25,7 @@
 </p>
 
 > [!IMPORTANT]
-> This repository contains a **legacy research implementation** of KH-SADA together with grammar resources, figures, and links to external datasets and model weights. The published PALM-SADA paper is documented here, but its complete implementation and extended datasets are not included in the current repository snapshot.
+> This repository contains a **legacy research implementation** of KH-SADA together with grammar resources, figures, and links to external datasets and model weights. The published PALM-SADA paper is documented here; its complete implementation, extended datasets, and production OCR system are maintained for **internal research use only** and are not publicly distributed.
 
 ## Overview
 
@@ -40,7 +40,7 @@ The repository supports two connected research projects:
 | **KH-SADA** | Khmer palm-leaf manuscripts | Grammar-aware synthesis with a CNN/attention-based recurrent recognizer | [APSIPA ASC 2022](https://doi.org/10.23919/APSIPAASC55919.2022.9980217) |
 | **PALM-SADA** | Khmer, Balinese, and Sundanese manuscripts | Monosyllabic and polysyllabic synthesis with a hybrid CNN–Transformer framework | [Pattern Recognition Letters 195 (2025), 8–15](https://doi.org/10.1016/j.patrec.2025.04.031) |
 
-The project is intended for research, reproducibility studies, education, and the digital preservation of low-resource historical scripts. It is not a production OCR service.
+The public repository is intended for research, reproducibility studies, education, and the digital preservation of low-resource historical scripts. Production deployment resources are restricted to internal research use.
 
 ## Research lineage
 
@@ -51,7 +51,7 @@ The project is intended for research, reproducibility studies, education, and th
 | 2025 | **PALM-SADA** | Multi-script monosyllabic and polysyllabic augmentation, hybrid CNN–Transformer recognition, and structured error analysis |
 
 > [!NOTE]
-> The KH-SADA research builds on the project team's first-place result in the text-recognition task of the ICFHR 2018 palm-leaf manuscript competition.
+> **ICFHR 2018 achievement:** the project team achieved first place in both the **isolated glyph recognition** and **word/text recognition** tasks of the ICFHR 2018 palm-leaf manuscript competition.
 
 ## Method at a glance
 
@@ -168,7 +168,7 @@ The work was published in *Pattern Recognition Letters* in 2025:
 </table>
 
 > [!NOTE]
-> The current repository includes PALM-SADA documentation and figures. The complete PALM-SADA implementation and extended multi-script datasets are not part of this snapshot.
+> The current repository includes public PALM-SADA documentation and figures. The complete PALM-SADA implementation and extended multi-script datasets are restricted to **internal research use only** and are not publicly distributed.
 
 ## Repository structure
 
@@ -263,8 +263,8 @@ python compute-wer.py <recognition.txt> <ground-truth.txt> <metrics.txt>
 | Khmer grammar and glyph dictionaries | Included |
 | KH-SADA dataset and model weights | Hosted externally on Google Drive |
 | PALM-SADA paper | Published in *Pattern Recognition Letters* (2025) |
-| Full PALM-SADA code and extended datasets | Not included in this repository snapshot |
-| Production-ready OCR application | Not provided |
+| Full PALM-SADA code and extended datasets | Restricted to internal research use |
+| Production-ready OCR application | Restricted to internal research use |
 
 The repository is best treated as a research artifact and foundation for modern reimplementation. Results may depend on the original preprocessing, data splits, dictionary ordering, legacy dependencies, and hardware configuration.
 
@@ -304,7 +304,7 @@ If this repository supports your work, cite the publication corresponding to the
 
 ## License
 
-Repository materials are released under the [CC0 1.0 Universal dedication](LICENSE). External datasets, pretrained weights, manuscript images, and third-party competition resources may have separate licenses or usage conditions; review their source terms before redistribution.
+Repository materials are released under the [CC0 1.0 Universal dedication](LICENSE). This dedication applies only to files publicly included in this repository; it does not apply to internal PALM-SADA code, extended datasets, or production systems. External datasets, pretrained weights, manuscript images, and third-party competition resources may have separate licenses or usage conditions; review their source terms before redistribution.
 
 ## Acknowledgements
 
