@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  <strong>Project led by Dr. Nimol Thuon</strong>
+</p>
+
+<p align="center">
   <a href="https://doi.org/10.23919/APSIPAASC55919.2022.9980217"><img alt="KH-SADA paper at APSIPA ASC 2022" src="https://img.shields.io/badge/KH--SADA-APSIPA%20ASC%202022-00629B?style=flat-square"></a>
   <a href="https://doi.org/10.1016/j.patrec.2025.04.031"><img alt="PALM-SADA paper in Pattern Recognition Letters 2025" src="https://img.shields.io/badge/PALM--SADA-PRL%202025-E9711C?style=flat-square"></a>
   <img alt="Supported scripts: Khmer, Balinese, and Sundanese" src="https://img.shields.io/badge/Scripts-Khmer%20%7C%20Balinese%20%7C%20Sundanese-6F42C1?style=flat-square">
