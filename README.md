@@ -30,6 +30,7 @@
 
 > [!IMPORTANT]
 > This repository contains a **legacy research implementation** of KH-SADA together with grammar resources, figures, and links to external datasets and model weights. The published PALM-SADA paper is documented here; its complete implementation, extended datasets, and production OCR system are maintained for **internal research use only**.
+
 > [!NOTE]
 > **ICFHR 2018 achievement:** the our research team achieved first place in both the **isolated glyph recognition** and **word/text recognition** tasks of the ICFHR 2018 palm-leaf manuscript competition.
 ## Overview
