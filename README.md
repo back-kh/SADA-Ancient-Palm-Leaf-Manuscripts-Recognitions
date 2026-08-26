@@ -8,9 +8,6 @@
   Grammar-aware data augmentation and neural text recognition for Khmer, Balinese, and Sundanese palm-leaf manuscripts.
 </p>
 
-<p align="center">
-  <strong>Project led by Dr. Nimol Thuon</strong>
-</p>
 
 <p align="center">
   <a href="https://doi.org/10.23919/APSIPAASC55919.2022.9980217"><img alt="KH-SADA paper at APSIPA ASC 2022" src="https://img.shields.io/badge/KH--SADA-APSIPA%20ASC%202022-00629B?style=flat-square"></a>
